@@ -53,6 +53,7 @@ export const shuffle = array_elements => {
     array_elements[randomNumIndex] = array_elements[i];
     array_elements[i] = randomNum;
   }
+  var array_elements = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16};
   return array_elements;
 };
 
